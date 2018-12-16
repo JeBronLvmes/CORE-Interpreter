@@ -1,0 +1,61 @@
+The Interpreter class contains:
+    Variables:
+        pt - the ParseTree built by the parser
+        
+    Methods:
+    
+        execProg()
+            - executes the program
+        
+        execStmtSeq()
+            - executes a statement sequence
+            
+        execStmt()
+            - executes a statement
+            
+        execIf()
+            - executes an if statement
+            
+        execOut()
+            - executes and prints an output
+            
+        execIn()
+            - assigns variables, executes an input
+            
+        execIdList()
+            - returns a list of identifiers
+            
+        execLoop()
+            - executes a loop
+            
+        execCond()
+            - executes a condition and returns as true or false
+            
+        execComp()
+            - executes a comparison and returns whether it was true or false
+        
+        execCompOp()
+            - returns the alt of a comp op for use in comparison execution
+            
+        execAssign()
+            - assigns a value to a variable in the symbol table
+            
+        execExp()
+            - executes an expression
+            
+        execTerm()
+            - executes a term and returns it for use in execExp()
+            
+        execFac()
+            - executes a fac and returns in for use in execTerm()
+            
+        execId()
+            - returns the name of an identifiers
+            
+        execInt()
+            - executes and returns a number from the parse tree
+            
+
+Testing:
+The test cases provided by the professor were compared to the output of the sample executable.
+Additional test cases were created for cases not provided by the instructor.

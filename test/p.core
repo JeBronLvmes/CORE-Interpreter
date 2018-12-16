@@ -1,0 +1,11 @@
+program  
+    int X;
+    begin
+        read X;
+        if ( X < 25 ) then
+            X = X + 3;
+        else
+            X = X + 10;
+        end;
+        write X;
+    end
